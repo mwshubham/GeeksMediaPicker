@@ -4,8 +4,8 @@ GeeksMediaPicker is a **simple media picker** library for Android.
 - Support Image/Video types.
 - Support Single/Multiple select.
 - Support ImageCompression.
-- Competible with Android 10 and above.
-- You can get real path of a selected media (it will copy selected file to your app's package storage and returned that path).
+- Compatible with Android 10 and above.
+- You can get the real path of a selected media (it will copy the selected file to your app's package storage and returned that path).
 
 
 |       Demo App          |    Select Album         |    Select Media         |       Get Result         |
@@ -125,7 +125,7 @@ GeeksMediaPicker.with(this)
       }
 ```
 
-#### To Get Media File From Camera (Only for Image. Record video is in underdevelopment)
+#### To Get Media File From Camera (Only for Image. Record video is in under development)
 
 ```
 GeeksMediaPicker.with(this)
@@ -162,7 +162,7 @@ media_duration: Long    : Duration of the selected media for Video file
 
 ### 4. GeeksMediaPicker Customization
 
-- For now it is only support change toolbar color by calling e.g.
+- For now, it only supports change toolbar color by calling e.g.
 
 ```
 GeeksMediaPicker.with(this)
@@ -220,8 +220,8 @@ GeeksMediaPicker.with(this)
 
 - Set Minimum Number Of Selection
 - Record Video From Camera Support.
-- Add Support for Pdf and Audio file.
-- More customization will be added in next release.
+- Add Support for Pdf and Audio files.
+- More customization will be added in the next release.
 
 
 
@@ -248,7 +248,7 @@ copies or substantial portions of the Software.
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
